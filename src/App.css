@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.userIMG {
+  width: 400px;
+  height: auto;
+  border-radius: 200px;
+  filter: drop-shadow(0 0 2em #0cabf5de);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.divCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
