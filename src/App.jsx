@@ -13,7 +13,13 @@ function App() {
         <h2>Pablo Tutor Moegle </h2>
         <p>Full Stack Developer</p>
       </div>
-      <h3 style={{ padding: "2rem" }}>Social Media</h3>
+      <h2 style={{ padding: "2rem" }}>Social Media</h2>
+
+      {/* 
+          hay que hacer esto de forma limpia y ordenada, tenerlo todo aqui esta quedando muy desordenado,
+          ideas para hacerlo con un array de objetos y un map, o con un componente que reciba un array de objetos, ya veremos
+      */}
+
       <div className="divCards">
         <a href="https://github.com/PabloTutorMoegle">
           <Card title = "Github" image = "https://unavatar.io/github" />
