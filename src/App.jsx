@@ -1,6 +1,6 @@
 import './App.css'
 import { Card } from './Card.jsx'
-import MiniProjectImage from './assets/ImagenMiniProjects.jpg'
+import { CardData } from './assets/Data.js'
 
 function App() {
 
@@ -21,27 +21,19 @@ function App() {
       */}
 
       <div className="divCards">
-        <a href="https://github.com/PabloTutorMoegle">
-          <Card title = "Github" image = "https://unavatar.io/github" />
-        </a>
-        <a href="https://www.linkedin.com/in/pablo-tutor-moegle/">
-          <Card title = "LinkedIn" image = "https://unavatar.io/linkedin" />
-        </a>
-        <a href="https://x.com/PabloTutorM">
-          <Card title = "X" image = "https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1720828800&semt=ais_user" />
-        </a>
-        <a href="https://www.instagram.com/pablo_dev_tutor/">
-          <Card title = "Instagram" image = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" />
-        </a>
+        {
+          CardData.map((card, index) => {
+            return (
+              <a href={card.link} key={index}>
+                <Card title={card.title} image={card.image} />
+              </a>
+            )}
+          )
+        }
       </div>
       <div>
-        <h2>Projects</h2>
-        <a href="https://github.com/PabloTutorMoegle/MiniProjects">MiniProjects</a>
-        <p>
-          This is my fun and practice repository, here you can see some mini projects that I do in my free time 
-          so I keep my self update.
-        </p>
-        <img src={MiniProjectImage} alt="imgMiniProjects"/>
+        <h2>CV</h2>
+        
       </div>
     </>
   )
