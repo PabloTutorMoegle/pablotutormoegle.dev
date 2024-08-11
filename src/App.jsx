@@ -14,12 +14,6 @@ function App() {
         <p>Full Stack Developer</p>
       </div>
       <h2 style={{ padding: "2rem" }}>Social Media</h2>
-
-      {/* 
-          hay que hacer esto de forma limpia y ordenada, tenerlo todo aqui esta quedando muy desordenado,
-          ideas para hacerlo con un array de objetos y un map, o con un componente que reciba un array de objetos, ya veremos
-      */}
-
       <div className="divCards">
         {
           CardData.map((card, index) => {
