@@ -26,7 +26,7 @@ function App() {
         }
       </div>
       <div>
-        <h2>CV</h2>
+        <h2>Work Experience</h2>
         
       </div>
     </>
