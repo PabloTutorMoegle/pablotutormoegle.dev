@@ -10,4 +10,4 @@ export function Card ({ title, image }) {
       <h2>{title}</h2>
     </div>
   );
-};
+}

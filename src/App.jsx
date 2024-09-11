@@ -1,6 +1,7 @@
 import './App.css'
 import { Card } from './Card.jsx'
 import { CardData } from './assets/Data.js'
+import { EmailForm } from './EmailBrowser.jsx'
 
 function App() {
 
@@ -26,8 +27,8 @@ function App() {
         }
       </div>
       <div>
-        <h2>Work Experience</h2>
-        
+        <h2>Contact Me</h2>
+        <EmailForm />
       </div>
     </>
   )
