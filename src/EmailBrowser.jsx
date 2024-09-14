@@ -31,26 +31,26 @@ export function EmailForm() {
       <div className='contact-form'>
         <div className='form-group'>
           <label className='input'>
-            Nombre: 
+            Name: 
+            <br />
             <input className='input__field' type="text" name="name" value={formData.name} onChange={handleChange} />
           </label>
         </div>
-        <br />
         <div className='form-group'>
           <label className='input'>
             Email: 
+            <br />
             <input className='input__field' type="email" name="email" value={formData.email} onChange={handleChange} />
           </label>
         </div>
-        <br />
         <div className='form-group'>
           <label className='input'>
-            Mensaje: 
+            Message: 
+            <br />
             <textarea className='input__field' name="message" value={formData.message} onChange={handleChange} />
           </label>
         </div>
       </div>
-      <br />
       <button type="submit" className='form-button'>Enviar</button>
     </form>
   );
