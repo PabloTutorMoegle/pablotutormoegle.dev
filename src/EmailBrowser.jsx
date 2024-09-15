@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './EmailBrowser.css';
+import { TextField } from '@mui/material';
 
 export function EmailForm() {
   const [formData, setFormData] = useState({
     name: '',
-    email: 'pablotutormoegle@gmail.com',
+    email: '',
     message: '',
   });
 
@@ -19,8 +20,10 @@ export function EmailForm() {
     emailjs.sendForm('service_011lwgi', 'template_bqf6pdo', e.target, 'ThrPooQjaFsMpDROf')
     .then((result) => {
       console.log(result.text);
+      alert('Message sent successfully');
     }, (error) => {
       console.log(error.text);
+      alert('Error at sending message');
     });
 
     console.log(formData);
@@ -29,27 +32,13 @@ export function EmailForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className='contact-form'>
-        <div className='form-group'>
-          <label className='input'>
-            Name: 
-            <br />
-            <input className='input__field' type="text" name="name" value={formData.name} onChange={handleChange} />
-          </label>
-        </div>
-        <div className='form-group'>
-          <label className='input'>
-            Email: 
-            <br />
-            <input className='input__field' type="email" name="email" value={formData.email} onChange={handleChange} />
-          </label>
-        </div>
-        <div className='form-group'>
-          <label className='input'>
-            Message: 
-            <br />
-            <textarea className='input__field' name="message" value={formData.message} onChange={handleChange} />
-          </label>
-        </div>
+        <TextField label="Name" name="name" value={formData.name} onChange={handleChange} fullWidth/>
+        <br />
+        <br />
+        <TextField label="Email" name="email" value={formData.email} onChange={handleChange} fullWidth/>
+        <br />
+        <br />
+        <TextField label="Message" name="message" value={formData.message} onChange={handleChange} fullWidth rows={4}/>
       </div>
       <button type="submit" className='form-button'>Enviar</button>
     </form>
