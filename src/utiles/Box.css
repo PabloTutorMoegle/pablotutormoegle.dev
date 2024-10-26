@@ -1,0 +1,39 @@
+/* this id the css file for thebox component */
+
+.box {
+    padding: 2em;
+    border-radius: 1em;
+    background-color: #fff;
+    margin: 1em;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.box h2 {
+    color: #222222;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.box a {
+    color: #222;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #0cabf5de;
+    box-shadow: 0 0 1em #0cabf5de;
+    text-decoration: underline;
+}
+
+.box.hover {
+    box-shadow: 0 0 1em #0cabf5de;
+}

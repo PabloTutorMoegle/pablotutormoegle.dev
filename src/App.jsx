@@ -1,7 +1,8 @@
 import './App.css'
-import { Card } from './Card.jsx'
-import { CardData } from './assets/Data.js'
-import { EmailForm } from './EmailBrowser.jsx'
+import { Card } from './utiles/Card.jsx'
+import { Box } from './utiles/Box.jsx'
+import { CardData, ProjectsData } from './assets/Data.js'
+//import { EmailForm } from './EmailBrowser.jsx'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       </div>
       <h2 style={{ padding: "2rem" }}>Social Media</h2>
       <div className="divCards">
+        {/*Aqui van mis paginas de redes sociales*/}
         {
           CardData.map((card, index) => {
             return (
@@ -27,8 +29,41 @@ function App() {
         }
       </div>
       <div>
-        <h2>Contact Me</h2>
-        <EmailForm />
+        <h2>Proyectos actuales en desarrollo</h2>
+        <div className="divCards" style={{ display: "flex", flexDirection: "column" }}>
+          {/* Aqui van mis proyectos */}
+          {
+          ProjectsData.map((project, index) => {
+            return (
+              <a href={project.link} key={index} style={{ display: "flex", flexDirection: "row" }}>
+                <Box title={project.title} image={project.image} />
+                <div>
+                  <h3>
+                    {project.content}
+                  </h3>
+                  <div className="divlistE">
+                    <p>
+                      {
+                        project.listExamples.map((example, index) => {
+                          return (
+                            <a href={example.linkE} key={index} 
+                                style={{ display: "flex", flexDirection: "row", color: "#fff", justifyContent: "center" }}>
+                              {example.titleE}
+                            </a>
+                          )
+                        })
+                      }
+                    </p>
+                  </div>
+                </div>
+              </a>
+            )
+          })
+        }
+        </div>
+        <p style={{ color: "#ff5100" }}>Los elementos de la lista son clickables para poder ir a ver el proyecto (en caso que este tenga 
+          algo que enseñar, sino permanecera en la pagina).</p>
+
       </div>
     </>
   )

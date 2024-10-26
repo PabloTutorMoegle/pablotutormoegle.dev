@@ -21,3 +21,22 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.divlistE {
+  display: "flex";
+  flexDirection: "column";
+  justifyContent: "center"
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
