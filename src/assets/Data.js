@@ -25,7 +25,7 @@ export const CardData = [
 export const ProjectsData = [
     {
         title: "Personales",
-        image: "https://tiermaker.com/images/chart/chart/godlike-characters-193184/mariojpg.png",
+        image: "https://art.pixilart.com/dbeec79e08f0dac.gif",
         link: "https://github.com/PabloTutorMoegle",
         content: "Proyectos personales que he desarrollado en mi tiempo libre o como practica de mis habilidades. ",
         listExamples: [
@@ -45,7 +45,7 @@ export const ProjectsData = [
     },
     {
         title: "Comunes",
-        image: "https://mods.sm64coopdx.com/data/assets/logo/excoopicon.png",
+        image: "https://media.tenor.com/Km_wRqRHkpQAAAAi/fist-bump-mario.gif",
         link: "",
         content: "Proyectos en los que he colaborado con otros desarrolladores para crear distintas aplicaciones. ",
         listExamples: [
