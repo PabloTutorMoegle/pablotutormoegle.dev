@@ -65,6 +65,7 @@ function App() {
           Los elementos de la lista son clickables para poder ir a ver el proyecto (en caso que este tenga 
           algo que enseñar, sino permanecera en la pagina).
         </p>
+        <p> test </p>
       </div>
     </>
   )
