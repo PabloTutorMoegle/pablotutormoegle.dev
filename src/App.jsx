@@ -2,7 +2,7 @@ import './App.css'
 import { Card } from './utiles/Card.jsx'
 import { Box } from './utiles/Box.jsx'
 import { CardData, ProjectsData } from './assets/Data.js'
-//import { EmailForm } from './EmailBrowser.jsx'
+import { EmailForm } from './utiles/EmailBrowser.jsx'
 
 function App() {
 
@@ -66,6 +66,14 @@ function App() {
           algo que enseñar, sino permanecera en la pagina).
         </p>
       </div>
+      <br />
+      <h3>Cuentame Algo</h3>
+      <p>
+        Ecribe aquello que quieras contarme,  en la cajita del mensage, 
+        ten en cuenta que si quieres que te responda tendras que poner 
+        tu contacto en el mensage.
+      </p>
+      <EmailForm />
     </>
   )
 }

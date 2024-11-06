@@ -24,8 +24,6 @@
 
 .divlistE {
   display: "flex";
-  flexDirection: "column";
-  justifyContent: "center"
 }
 
 a {
