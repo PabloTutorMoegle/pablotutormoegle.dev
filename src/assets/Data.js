@@ -18,7 +18,7 @@ export const CardData = [
     {
         title: "Instagram",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png",
-        link: "https://www.instagram.com/pablo_dev_tutor/"
+        link: "https://www.instagram.com/pablitoclavito17/"
     }
 ]
 
