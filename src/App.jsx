@@ -17,21 +17,21 @@ function App() {
       </div>
       <h2 style={{ padding: "2rem" }}>Social Media</h2>
       <div className="divCards">
-        {/*Aqui van mis paginas de redes sociales*/}
+        {/* Here are my social media pages */}
         {
           CardData.map((card, index) => {
             return (
               <a href={card.link} key={index}>
-                <Card title={card.title} image={card.image} />
+              <Card title={card.title} image={card.image} />
               </a>
             )}
-          )
-        }
-      </div>
-      <div>
-        <h2>Proyectos actuales en desarrollo</h2>
-        <div className="divCards" style={{ display: "flex", flexDirection: "column" }}>
-          {/* Aqui van mis proyectos */}
+            )
+          }
+          </div>
+          <div>
+          <h2>Current Projects in Development</h2>
+          <div className="divCards" style={{ display: "flex", flexDirection: "column" }}>
+            {/* Here are my projects */}
           {
           ProjectsData.map((project, index) => {
             return (
@@ -62,16 +62,15 @@ function App() {
         }
         </div>
         <p style={{ color: "#ff5100" }}>
-          Los elementos de la lista son clickables para poder ir a ver el proyecto (en caso que este tenga 
-          algo que enseñar, sino permanecera en la pagina).
+          The list items are clickable to view the project (if it has something to show, 
+          otherwise it will remain on the page).
         </p>
       </div>
       <br />
-      <h3>Cuentame Algo</h3>
+      <h3>Tell Me Something</h3>
       <p>
-        Ecribe aquello que quieras contarme,  en la cajita del mensage, 
-        ten en cuenta que si quieres que te responda tendras que poner 
-        tu contacto en el mensage.
+        Write whatever you want to tell me in the message box, keep in mind that if you want me to respond, 
+        you will need to include your contact information in the message.
       </p>
       <EmailForm />
     </>

@@ -32,10 +32,10 @@ export function EmailForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className='contact-form'>
-        <TextField label="Mensage" name="message" value={formData.message} onChange={handleChange} fullWidth rows={4}/>
+        <TextField label="Message" name="message" value={formData.message} onChange={handleChange} fullWidth rows={4}/>
       </div>
       <br />
-      <button type="submit" className='form-button'>Enviar</button>
+      <button type="submit" className='form-button'>Send</button>
     </form>
   );
 }

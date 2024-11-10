@@ -24,41 +24,41 @@ export const CardData = [
 
 export const ProjectsData = [
     {
-        title: "Personales",
+        title: "Personal",
         image: "https://art.pixilart.com/dbeec79e08f0dac.gif",
         link: "https://github.com/PabloTutorMoegle",
-        content: "Proyectos personales que he desarrollado en mi tiempo libre o como practica de mis habilidades. ",
+        content: "Personal projects that I have developed in my free time or as practice for my skills.",
         listExamples: [
             {
-                titleE: "Algunos de ellos son: ",
+                titleE: "Some of them are: ",
                 linkE: "",
             },
             {
-                titleE: "- Esta pagina web ",
+                titleE: "- This website ",
                 linkE: ""
             },
             {
-                titleE: "- Un juego de Tower Defese en Unity ",
+                titleE: "- A Tower Defense game in Unity ",
                 linkE: "https://github.com/PabloTutorMoegle/Personal_Games"
             }
         ]
     },
     {
-        title: "Comunes",
+        title: "Collaborative",
         image: "https://media.tenor.com/Km_wRqRHkpQAAAAi/fist-bump-mario.gif",
         link: "",
-        content: "Proyectos en los que he colaborado con otros desarrolladores para crear distintas aplicaciones. ",
+        content: "Projects in which I have collaborated with other developers to create various applications.",
         listExamples: [
             {
-                titleE: "Algunos de ellos son: ",
+                titleE: "Some of them are: ",
                 linkE: "",
             },
             {
-                titleE: "- El mitico juego de Asteroids en cooperativo en una asociacion de desarrollo de videojuegos ",
+                titleE: "- The classic Asteroids game in cooperative mode in a video game development association ",
                 linkE: "https://github.com/GameDEV-UPC"
             },
             {
-                titleE: "- Un sistema de gestion de usuarios en una aplicacion de streaming (estilo Netflix), es para una asignatura de la universidad ",
+                titleE: "- A user management system in a streaming application (like Netflix), for a university course ",
                 linkE: "https://github.com/PabloTutorMoegle"
             }
         ]
