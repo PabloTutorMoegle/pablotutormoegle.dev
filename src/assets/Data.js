@@ -19,6 +19,11 @@ export const CardData = [
         title: "Instagram",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png",
         link: "https://www.instagram.com/pablitoclavito17/"
+    },
+    {
+        title: "Mail",
+        image: "https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png",
+        link: "mailto: pablotutormoegle@gmail.com"
     }
 ]
 
