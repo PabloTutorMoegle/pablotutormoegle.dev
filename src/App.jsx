@@ -73,6 +73,10 @@ function App() {
         you will need to include your contact information in the message.
       </p>
       <EmailForm />
+      <br />
+      <h4>
+        If you want to see the code of this page, you can find it in my GitHub repository.
+      </h4>
     </>
   )
 }
