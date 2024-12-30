@@ -77,6 +77,14 @@ function App() {
       <h4>
         If you want to see the code of this page, you can find it in my GitHub repository.
       </h4>
+
+      {/* Here goes a rute to see my personal hobbies */}
+      <h4>
+        If you want to know more about me, you can see my hobbies.
+      </h4>
+      <button href="/hobbies" style={{ backgroundColor: "#0cabf5de", color: "#fff", padding: "1rem" }}>
+        Hobbies
+      </button>
     </>
   )
 }
