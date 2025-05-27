@@ -19,3 +19,8 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.form-button:hover {
+  background-color: #0a9ad4;
+  transform: scale(1.2);
+}

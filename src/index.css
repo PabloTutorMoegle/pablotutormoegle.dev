@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: #fff;
-  background-color: #222;
+  background: radial-gradient(circle, #646cff, #000, #000);
+  background-attachment: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
