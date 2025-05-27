@@ -43,7 +43,7 @@ export const ProjectsData = [
                 linkE: ""
             },
             {
-                titleE: "- A Tower Defense game in Unity ",
+                titleE: "- A remake of the classic game 'Adventure' by Warren Robinett",
                 linkE: "https://github.com/PabloTutorMoegle/Personal_Games"
             }
         ]
@@ -59,12 +59,12 @@ export const ProjectsData = [
                 linkE: "",
             },
             {
-                titleE: "- The classic Asteroids game in cooperative mode in a video game development association ",
+                titleE: "- Some games in cooperative mode in a video game development association ",
                 linkE: "https://github.com/GameDEV-UPC"
             },
             {
-                titleE: "- A user management system in a streaming application (like Netflix), for a university course ",
-                linkE: "https://github.com/PabloTutorMoegle"
+                titleE: "- A web for buy and sell any type of product, for a university course ",
+                linkE: "https://github.com/ChopChop-Amep"
             }
         ]
     }
