@@ -12,6 +12,7 @@
 .card img {
   width: 100%;
   border-radius: 1em;
+  object-fit: contain;
 }
 
 .card h2 {
