@@ -58,34 +58,44 @@ function App() {
                 </div>
               </a>
             )
-          })
-        }
-        </div>
-        <p style={{ color: "#ff5100" }}>
-          The list items are clickable to view the project (if it has something to show, 
-          otherwise it will remain on the page).
-        </p>
-      </div>
-      <br />
-      <h3>Tell Me Something</h3>
-      <p>
-        Write whatever you want to tell me in the message box, keep in mind that if you want me to respond, 
-        you will need to include your contact information in the message.
-      </p>
-      <EmailForm />
-      <br />
-      <h4>
-        If you want to see the code of this page, you can find it in my GitHub repository.
-      </h4>
+            })
+            }
+            </div>
+            <p style={{ color: "#ff5100" }}>
+            The list items are clickable to view the project (if it has something to show, 
+            otherwise it will remain on the page).
+            </p>
+            </div>
+            <br />
+            <h3>Tell Me Something</h3>
+            <p>
+            Write whatever you want to tell me in the message box, keep in mind that if you want me to respond, 
+            you will need to include your contact information in the message.
+            </p>
+            <EmailForm />
+            <br />
+            <h4>
+            If you want to see the code of this page, you can find it in my GitHub repository.
+            </h4>
 
-      {/* Here goes a rute to see my personal hobbies 
-      <h4>
-        If you want to know more about me, you can see my hobbies.
-      </h4>
-      <button href="/hobbies" style={{ backgroundColor: "#0cabf5de", color: "#fff", padding: "1rem" }}>
-        Hobbies
-      </button>
-      */}
+            <button
+              onClick={() => {
+                const img = document.querySelector('.userIMG');
+                if (img) {
+                const originalSrc = "https://unavatar.io/pablotutormoegle";
+                const altSrc = "https://cdn.unduel.com/D96E47BC-1A1F-460A-B8DA-6AAA50012108/blueprint.webp?width=384&quality=85";
+                img.src = img.src === originalSrc ? altSrc : originalSrc;
+              }}}
+            />
+                
+            {/* Here goes a rute to see my personal hobbies
+            <h4>
+            If you want to know more about me, you can see my hobbies.
+            </h4>
+            <button href="/hobbies" style={{ backgroundColor: "#0cabf5de", color: "#fff", padding: "1rem" }}>
+            Hobbies
+            </button>
+            */}
     </>
   )
 }

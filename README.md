@@ -4,4 +4,11 @@ Este es el codigo prototipo de mi web .dev pero hay que seguir aprendiendo y hac
 
 :) 
 
-Click para ver la [pagina](https://pablotutormoegledev.netlify.app/) provisional
+Click para ver la [pagina](https://pablotutormoegle-dev.vercel.app/)
+
+
+Instalaciones:
+
+``` 
+npm install
+```

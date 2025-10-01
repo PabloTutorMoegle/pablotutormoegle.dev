@@ -63,7 +63,7 @@ export const ProjectsData = [
                 linkE: "https://github.com/GameDEV-UPC"
             },
             {
-                titleE: "- A web for buy and sell any type of product, for a university course ",
+                titleE: "- A web for buy and sell any type of product, for a university course (finished)",
                 linkE: "https://github.com/ChopChop-Amep"
             }
         ]
