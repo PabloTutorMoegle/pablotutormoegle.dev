@@ -74,7 +74,7 @@ function App() {
 
         <br />
 
-        <a href="https://www.cardmarket.com/es/Magic/Users/PabloTutor">
+        <a href="https://www.cardmarket.com/es/Magic/Users/PabloTutor" style={{ color: "#ff0000" }}>
           <h2>Card Market</h2>
         </a>
         <p>Where i sell my Magic: The Gathering cards</p>
