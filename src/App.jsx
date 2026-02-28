@@ -10,7 +10,7 @@ function App() {
       <div>
         <a href="https://github.com/PabloTutorMoegle">
           <img
-            src="https://unavatar.io/pablotutormoegle"
+            src="https://unavatar.io/github/pablotutormoegle"
             className="userIMG"
             alt="PabloIMG"
           />
