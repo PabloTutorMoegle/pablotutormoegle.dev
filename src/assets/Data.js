@@ -2,7 +2,7 @@
 export const CardData = [
     {
         title: "Github",
-        image: "https://unavatar.io/github",
+        image: "https://unavatar.io/github/github",
         link: "https://github.com/PabloTutorMoegle"
     },
     {
