@@ -101,7 +101,7 @@ function App() {
         onClick={() => {
           const img = document.querySelector(".userIMG");
           if (img) {
-            const originalSrc = "https://unavatar.io/pablotutormoegle";
+            const originalSrc = "https://unavatar.io/github/pablotutormoegle";
             const altSrc =
               "https://cdn.unduel.com/D96E47BC-1A1F-460A-B8DA-6AAA50012108/blueprint.webp?width=384&quality=85";
             img.src = img.src === originalSrc ? altSrc : originalSrc;
