@@ -17,7 +17,7 @@ export const CardData = [
     },
     {
         title: "Instagram",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png",
+        image: "https://imgs.search.brave.com/QCXs1at21gTTK4OOcQGpQNGjGSAeMe5GgnY0371pDSI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9pbnN0YWdyYW0t/MjAxNi02LnN2Zw",
         link: "https://www.instagram.com/pablitoclavito17/"
     },
     {
