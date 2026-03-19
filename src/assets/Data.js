@@ -7,7 +7,7 @@ export const CardData = [
     },
     {
         title: "LinkedIn",
-        image: "https://unavatar.io/linkedin",
+        image: "https://imgs.search.brave.com/0v4Sm458HDpveXvbxRIRumhc-j6NZ1PMGH6RoBMGeCY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTgv/OTMwLzU4NC9zbWFs/bC9saW5rZWRpbi1s/b2dvLWxpbmtlZGlu/LWljb24tdHJhbnNw/YXJlbnQtZnJlZS1w/bmcucG5n",
         link: "https://www.linkedin.com/in/pablo-tutor-moegle/"
     },
     {
